@@ -14,7 +14,7 @@
 
 ```bash
 git clone https://github.com/lxy2109/doubao-tts-mcp.git
-cd doubao_tts_mcp
+cd doubao-tts-mcp
 ```
 
 ## Python环境准备

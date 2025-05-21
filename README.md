@@ -13,7 +13,7 @@
 ### 0. 克隆项目代码
 
 ```bash
-git clone https://github.com/lxy2109/doubao_tts_mcp.git
+git clone https://github.com/lxy2109/doubao-tts-mcp.git
 cd doubao_tts_mcp
 ```
 

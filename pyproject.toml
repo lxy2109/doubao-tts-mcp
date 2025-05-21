@@ -1,0 +1,43 @@
+[project]
+name = "doubao_tts_mcp"
+version = "0.1.0"
+description = "火山引擎 TTS MCP 服务"
+authors = [
+    {name = "lxy2109", email = "cinnamon_l@163.com"}
+]
+requires-python = ">=3.8"
+readme = "README.md"
+license = "MIT"
+dependencies = [
+    "requests",
+    "python-dotenv",
+    "mcp[cli]"
+]
+
+[project.scripts]
+doubao-tts-mcp = "volcengine_mcp.server:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+target-version = ["py38"]
+include = '\\.pyi?$'
+
+[tool.pylint.messages_control]
+disable = [
+    "C0111",  # missing-docstring
+    "C0103",  # invalid-name
+    "C0301",  # line-too-long
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[tool.setuptools.packages.find]
+include = ["volcengine_mcp*"]
+exclude = ["output*"]

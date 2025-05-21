@@ -22,12 +22,7 @@ cd doubao-tts-mcp
 - 本项目需 Python 3.8 及以上版本。
 - 推荐使用 [Python官网](https://www.python.org/downloads/) 下载并安装最新版。
 - 安装完成后，命令行输入 `python --version` 或 `python3 --version` 检查版本。
-- 建议使用虚拟环境：
-  ```bash
-  python -m venv .venv
-  source .venv/bin/activate  # Linux/macOS
-  .venv\Scripts\activate    # Windows
-  ```
+
 
 ### 1. 安装依赖
 
@@ -35,7 +30,7 @@ cd doubao-tts-mcp
 pip install -r requirements.txt
 ```
 
-### 2. 安装本地包（支持命令行调用，非虚拟环境内）
+### 2. 安装本地包（支持命令行调用）
 
 ```bash
 pip install -e .

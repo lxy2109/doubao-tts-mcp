@@ -35,7 +35,7 @@ cd doubao-tts-mcp
 pip install -r requirements.txt
 ```
 
-### 2. 安装本地包（支持命令行调用）
+### 2. 安装本地包（支持命令行调用，非虚拟环境内）
 
 ```bash
 pip install -e .

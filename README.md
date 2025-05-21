@@ -101,7 +101,6 @@ doubao-tts-mcp
 
 ---
 
-如需开发细节、扩展说明，请参考 doubao-tts-api-with-mcp-flow.md。
 
 ## 参考
 - [火山引擎语音合成API文档](https://www.volcengine.com/docs/6561/1257584)

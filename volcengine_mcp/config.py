@@ -48,7 +48,7 @@ VOICE_LIST = [
     # ====== 趣味口音 ======
     {"scene": "趣味口音", "desc": "京腔侃爷/Harmony", "voice_type": "zh_male_jingqiangkanye_moon_bigtts", "lang": "中文-北京口音, 英文", "emotions": [], "keywords": ["京腔侃爷", "Harmony", "趣味口音", "男声", "北京口音", "英文"]},
     {"scene": "趣味口音", "desc": "湾湾小何", "voice_type": "zh_female_wanwanxiaohe_moon_bigtts", "lang": "中文-台湾口音", "emotions": [], "keywords": ["湾湾小何", "趣味口音", "女声", "台湾口音"]},
-    {"scene": "趣味口音", "desc": "湾区大叔", "voice_type": "zh_female_wanqudashu_moon_bigtts", "lang": "中文-广东口音", "emotions": [], "keywords": ["湾区大叔", "趣味口音", "女声", "广东口音"]},
+    {"scene": "趣味口音", "desc": "湾区大叔", "voice_type": "zh_female_wanqudashu_moon_bigtts", "lang": "中文-广东口音", "emotions": [], "keywords": ["湾区大叔", "趣味口音", "男声", "广东口音"]},
     {"scene": "趣味口音", "desc": "呆萌川妹", "voice_type": "zh_female_daimengchuanmei_moon_bigtts", "lang": "中文-四川口音", "emotions": [], "keywords": ["呆萌川妹", "趣味口音", "女声", "四川口音"]},
     {"scene": "趣味口音", "desc": "广州德哥", "voice_type": "zh_male_guozhoudege_moon_bigtts", "lang": "中文-广东口音", "emotions": [], "keywords": ["广州德哥", "趣味口音", "男声", "广东口音"]},
     {"scene": "趣味口音", "desc": "北京小爷", "voice_type": "zh_male_beijingxiaoye_moon_bigtts", "lang": "中文-北京口音", "emotions": [], "keywords": ["北京小爷", "趣味口音", "男声", "北京口音"]},

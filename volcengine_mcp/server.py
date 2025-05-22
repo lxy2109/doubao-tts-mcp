@@ -6,7 +6,7 @@ from mcp.server.fastmcp import FastMCP
 from volcengine_mcp.volc_tts import VolcTTS
 from dotenv import load_dotenv
 from mcp.types import TextContent
-from volcengine_mcp.config import get_voice_type
+from volcengine_mcp.config import get_voice_type, VOICE_LIST
 from typing import Optional
 import uuid
 
@@ -150,6 +150,17 @@ def volcengine_tts(
         type="text",
         text=f"合成成功，音频文件路径：{out_path}"
     )
+
+@mcp.tool(
+    description="""
+    获取所有可用的火山引擎TTS音色列表。
+    返回：
+        List[dict]，每个元素包含音色的scene、desc、voice_type、lang、emotions、keywords等信息。
+    """
+)
+def list_voice() -> list:
+    """返回所有可用音色信息列表"""
+    return VOICE_LIST
 
 def main():
     mcp.run()
